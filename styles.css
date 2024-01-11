@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 150px;
+    background-color: #1f2937;
+    height: 13.5em;
+}
+
+
+
+.nav{
+    display: flex;
+    font-size: 10px;
+    gap: 10px;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 8px;
+
+    
+}
