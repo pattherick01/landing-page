@@ -33,11 +33,13 @@ a{
 .header-2{
     display: flex;
     justify-content: center;
-
+    background-color: #1f2937;
+    gap: 30px;
+    padding: 40px 0;
 }
 
 .headline{
-    width: 10em;
+    width: 15em;
 }
 
 .image{
@@ -48,8 +50,21 @@ a{
 
 h1{
     font-size: 20px;
+    color: #f9faf8;
 }
 
 p{
-    font-size: 10px;
+    font-size: 9px;
+    color: #E5E7EB;
+    margin: 3px 0;
+}
+
+.button{
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 12px;
+    font-size: 9px;
+    font-weight: bold;
 }
