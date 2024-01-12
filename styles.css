@@ -11,14 +11,13 @@
     align-items: flex-start;
     padding: 10px 150px;
     background-color: #1f2937;
-    height: 13.5em;
 }
 
 
 
 .nav{
     display: flex;
-    font-size: 10px;
+    font-size: 8px;
     gap: 10px;
     list-style: none;
 
@@ -28,6 +27,29 @@ a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 8px;
+    padding: 0 5px;
+}
 
-    
+.header-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.headline{
+    width: 10em;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 20px;
+}
+
+p{
+    font-size: 10px;
 }
