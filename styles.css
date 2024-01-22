@@ -116,7 +116,7 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 12em;
+    padding: 30px 12em;
 }
 
 .thor{
@@ -133,5 +133,39 @@ h2{
 
 .div3{ 
     background-color: #f9faf8;
+    padding: 50px 0;
 }
 
+.call-to-action{
+    background-color: #3882f6;
+    width: 30em;
+    height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-text-div{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.text-bold{
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.text-bold,
+.text-button {
+    color: white;
+    font-size: 0.4rem;
+    align-self: start;
+}
+
+.button{
+    border: solid 1px white;
+    height: 20px;
+    padding: 0 20px;
+    align-self: center;
+}
